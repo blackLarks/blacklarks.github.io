@@ -1,0 +1,22 @@
+baseURL = 'https://https://www.juncao.net.cn/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'PaperMod'
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+  [[menu.main]]
+    identifier = "courses"
+    name = "Courses"
+    url = "/courses/"
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+  [[menu.main]]
+    identifier = "speaking"
+    name = "Speaking"
+    url = "/speaking/"
