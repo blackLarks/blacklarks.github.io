@@ -2,3 +2,10 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'My New Hugo Site'
 theme = 'PaperMod'
+
+[menu]
+  [[menu.main]]
+    identifier = "blogs"
+    name = "Blogs"
+    url = "/posts/"
+    weight = 10
